@@ -13,6 +13,7 @@
 #
 ## Graphical Abstract ##
 ![Abstract](Images/Graphic%20abstract-Page-4.png)
+**Fig 1. The stage-wise classiﬁcation of coffee leaveswith the trained backbones**
 
 
 
@@ -65,6 +66,8 @@ Inclusion:
 - Healthy
 - Coffee Leaf Rust (CLR)
 - Sooty Molds (SM)
+
+>**Table 1** Speciﬁcation of the curated coffee leaf dataset ![dataset](Images\Tabel_dataset.jpg)
 
 **For the readily prepared dataset used in this work refer to this link (OPTIONAL) : <a target=blank_ href="https://drive.google.com/drive/folders/1-CE_k_GMds2kOJDB-WfG_CCh3JN3w_ZI?usp=sharing">Google Drive Prepared Dataset<a/>** 
   
