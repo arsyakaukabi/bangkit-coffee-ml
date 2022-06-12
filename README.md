@@ -76,18 +76,21 @@ Inclusion:
 
 **The SWAT-DCNN uses the tensorflow GPU. This may also require at least CUDA 10 and a cuDNN**
 
-Activate and access the folder `Co-ffee.A/` with the included `requirements.txt` file.
+Clone the repository:
 
+```git clone https://github.com/arsyakaukabi/Co-ffee_A.git```
 
-Afterwards, simply enter the command in the conda CLI `pip install -r requirements.txt`
+Activate and access the folder `Co-ffee.A/` with the included `requirements.txt` file. Afterwards, simply enter the command in the conda CLI 
 
-Once installed, you may either train the models individually with the `.ipynb` notebooks found in `Co-ffee.A/models/` inside the `stage-1`, `stage-2`, and `stage-3` folders or make use of the pre-trained weights.
+```pip install -r requirements.txt```
 
-The `Co-ffee.A/models/tdcnn/` files does not need to re-train. However, its a must to compile and aggregate the T-DCNN stages to produce its own respective weights needed by the entire SWAT-DCNN model.
+Once installed, you may either train the models individually with the `.ipynb` notebooks found in `Co-ffee.A/Models/` inside the `stage1`, `stage2`, and `stage3` folders or make use of the pre-trained weights.
+
+The `Co-ffee.A/Models/TDCNN/` files does not need to re-train. However, its a must to compile and aggregate the T-DCNN stages to produce its own respective weights needed by the entire SWAT-DCNN model.
 
 ## Pre-trained Weights ##
 
-<p>The pre-trained weights are the plug and play weights that can be used to skip the training and compilation of models for the SWAT-DCNN (RECOMMENDED).</p>
+<p>The pre-trained weights are the plug and play weights that can be used to skip the training and compilation of models for the TDCNN (RECOMMENDED).</p>
 
 **For an immediate simulation without the hassle of going over the previous instructions, refer to this link. : <a href="https://drive.google.com/file/d/1JNvYlat8mmpNyd3sS_QgQ5zVVEImFFjc/view?usp=sharing">Pre-Trained Weights</a>**
 
@@ -99,7 +102,7 @@ The filenames must not be changed for the `.h5` files.
 - `model2.h5`
 - `model3.h5`
 
-Make sure to extract the pre-trained weights in the given manner 🠊 `Co-ffee.A/weights/`
+Make sure to extract the pre-trained weights in the given manner 🠊 `Co-ffee_A/weights/`
 
 ## How to use 
 
