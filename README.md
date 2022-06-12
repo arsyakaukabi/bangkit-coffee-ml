@@ -71,35 +71,15 @@ Inclusion:
 
 ## Environment Setup
 
-***:heavy_exclamation_mark: Make sure to create a new virtual environment preferably in Anaconda. Use Python 3.5.***
+***Make sure to create a new virtual environment preferably in Anaconda. Use Python 3.5+.***
 
 
-**:warning: The SWAT-DCNN uses the tensorflow GPU. This may also require at least CUDA 10 and a cuDNN**
+**The SWAT-DCNN uses the tensorflow GPU. This may also require at least CUDA 10 and a cuDNN**
 
 Activate and access the folder `Co-ffee.A/` with the included `requirements.txt` file.
 
 
-:warning: https://developer.nvidia.com/cuda-toolkit
-
-https://developer.nvidia.com/rdp/cudnn-archive
-
 Afterwards, simply enter the command in the conda CLI `pip install -r requirements.txt`
-
-Dependencies include: 
-- efficientnet==1.1.1
-- colorama==0.4.3
-- jupyter==1.0.0
-- keras==2.2.5
-- matplotlib
-- numpy==1.16.2
-- opencv-python==4.4.0.42
-- pandas==0.25.3
-- Pillow==7.2.0
-- scikit-learn
-- scikit-image
-- scikit-plot
-- scipy
-- tensorflow-gpu==1.14.0
 
 Once installed, you may either train the models individually with the `.ipynb` notebooks found in `Co-ffee.A/models/` inside the `stage-1`, `stage-2`, and `stage-3` folders or make use of the pre-trained weights.
 
@@ -107,11 +87,11 @@ The `Co-ffee.A/models/tdcnn/` files does not need to re-train. However, its a mu
 
 ## Pre-trained Weights ##
 
-<p>The pre-trained weights are the plug and play weights that can be used to skip the training and compilation of models for the SWAT-DCNN (RECOMMENDED). :relaxed:</p>
+<p>The pre-trained weights are the plug and play weights that can be used to skip the training and compilation of models for the SWAT-DCNN (RECOMMENDED).</p>
 
 **For an immediate simulation without the hassle of going over the previous instructions, refer to this link. : <a href="https://drive.google.com/file/d/1JNvYlat8mmpNyd3sS_QgQ5zVVEImFFjc/view?usp=sharing">Pre-Trained Weights</a>**
 
-`PRE-TRAINED WEIGHTS FILESIZE: (271 MB)`
+`PRE-TRAINED WEIGHTS FILESIZE: (484 MB)`
 
 The filenames must not be changed for the `.h5` files.
 
@@ -123,11 +103,11 @@ Make sure to extract the pre-trained weights in the given manner 🠊 `Co-ffee.A
 
 ## How to use 
 
-**heavy_exclamation_mark: Training with the pre-trained weights (RECOMMENDED)**
+**Training with the pre-trained weights (RECOMMENDED)**
 
-**heavy_exclamation_mark: Training from scratch (May take long hours depending on your PC specs) :hand:**
+**Training from scratch (May take long hours depending on your PC specs)**
 
-**:warning: Training from scratch (May take long hours depending on your PC specs) :hand:**
+**Training from scratch (May take long hours depending on your PC specs)**
 
 1. Activate your created virtual environment and enter the main `Co-ffee_A/` folder.
 
@@ -145,8 +125,7 @@ Make sure to extract the pre-trained weights in the given manner 🠊 `Co-ffee.A
 
 ## Performance Results ##
 
-<p align="center">
-  <img width="900" alt="logo" src="History\Model_History.svg"/>
-</p>
+![image]('History\Model_History.svg')
+
 
 
