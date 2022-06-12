@@ -14,7 +14,7 @@
 ## Graphical Abstract ##
 ![Abstract](Images/Graphic%20abstract-Page-4.png)
 <p align="center">
-    <b>Fig 1</b> The stage-wise classiﬁcation of coffee leaveswith the trained backbones
+    <b>Fig 1</b> The stage-wise classiﬁcation of coffee leaves with the trained backbones
 </p>
 
 
@@ -138,11 +138,18 @@ Make sure to extract the pre-trained weights in the given manner 🠊 `Co-ffee_A
 **In case of any problems, don't hesitate to contact me. I'll be happy to help.** 
 
 ## Performance Results ##
-Accuracy and loss after 25 epochs of trainings.
+In Fig. 2, all models successfully trained and validated from their respective datasets, illustrated by the converged train and validation graphs.
+
 ![Trainng](History/Model_History.svg)
 <p align="center">
     <b>Fig 2</b> The learning progress of the selected models during training and validation
 </p>
 
+Figure 3 presents the classiﬁcation results of the individual T-DCNN stages with their respective test datasets visualized
+
+![TDCNN](History/TDCNN_History.svg)
+<p align="center">
+    <b>Fig 3</b> TDCNN confusion matrix results from the test data for each stage
+</p>
 
 
