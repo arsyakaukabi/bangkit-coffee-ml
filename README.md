@@ -13,7 +13,10 @@
 #
 ## Graphical Abstract ##
 ![Abstract](Images/Graphic%20abstract-Page-4.png)
-**Fig 1. The stage-wise classiﬁcation of coffee leaveswith the trained backbones**
+<p align="center">
+    <b>Fig 1</b> The stage-wise classiﬁcation of coffee leaveswith the trained backbones
+</p>
+
 
 
 
@@ -67,7 +70,9 @@ Inclusion:
 - Coffee Leaf Rust (CLR)
 - Sooty Molds (SM)
 
->**Table 1** Speciﬁcation of the curated coffee leaf dataset ![dataset](Images\Tabel_dataset.jpg)
+
+**Table 1** Speciﬁcation of the curated coffee leaf dataset 
+![dataset](Images/Tabel_dataset.jpg)
 
 **For the readily prepared dataset used in this work refer to this link (OPTIONAL) : <a target=blank_ href="https://drive.google.com/drive/folders/1-CE_k_GMds2kOJDB-WfG_CCh3JN3w_ZI?usp=sharing">Google Drive Prepared Dataset<a/>** 
   
@@ -133,8 +138,11 @@ Make sure to extract the pre-trained weights in the given manner 🠊 `Co-ffee_A
 **In case of any problems, don't hesitate to contact me. I'll be happy to help.** 
 
 ## Performance Results ##
-
+Accuracy and loss after 25 epochs of trainings.
 ![Trainng](History/Model_History.svg)
+<p align="center">
+    <b>Fig 2</b> The learning progress of the selected models during training and validation
+</p>
 
 
 
