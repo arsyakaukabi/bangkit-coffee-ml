@@ -107,8 +107,6 @@ Make sure to extract the pre-trained weights in the given manner 🠊 `Co-ffee.A
 
 **Training from scratch (May take long hours depending on your PC specs)**
 
-**Training from scratch (May take long hours depending on your PC specs)**
-
 1. Activate your created virtual environment and enter the main `Co-ffee_A/` folder.
 
 2. Save the dataset folder downloaded from LINK inside the `Co-ffee_A/` as `Co-ffee_A/dataset/`
