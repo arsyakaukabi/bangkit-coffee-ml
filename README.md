@@ -125,7 +125,7 @@ Make sure to extract the pre-trained weights in the given manner 🠊 `Co-ffee.A
 
 ## Performance Results ##
 
-![image]('/History/Model_History.svg')
+![image]('History/Model_History.svg')
 
 
 
