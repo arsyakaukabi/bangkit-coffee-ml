@@ -12,7 +12,7 @@
 **Automated Diagnosis of Diverse Coffee Leaf Images through a Triple Deep Convolutional Neural Network**
 #
 ## Graphical Abstract ##
-![Abstract](Images\Graphic abstract-Page-4.drawio.svg)
+![Abstract](Images/Graphic abstract-Page-4.drawio.svg)
 
 
 
