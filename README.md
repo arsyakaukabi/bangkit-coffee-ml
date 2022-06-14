@@ -2,15 +2,20 @@
   <img width="500" alt="logo" src="Images\logo2.svg"/>
 </p>
 
-[![](https://img.shields.io/badge/ID%20Team-C22_PC377-blue)](https://github.com/xrizer/Co-ffee)
-[![PyPI version](https://badge.fury.io/py/autokeras.svg)](https://badge.fury.io/py/autokeras)
+[![](https://img.shields.io/badge/ID%20Team-C22_PC377-blue)](https://github.com/arsyakaukabi/Co-ffee_BangkitCapstone)
 ![Python](https://img.shields.io/badge/python-v3.9.0+-success.svg)
 ![Tensorflow](https://img.shields.io/badge/tensorflow-v2.8.0+-success.svg)
 
 
+
 #
-**Automated Diagnosis of Diverse Coffee Leaf Images through a Triple Deep Convolutional Neural Network**
-#
+Automated Diagnosis of Diverse Coffee Leaf Images through a Triple Deep Convolutional Neural Network.
+
+- **Author: [Mohamad Arsya Kaukabi][1] & [Ivan Arsyaditya Prananda][2]**
+
+- **Affiliation: [Bangkit Academy][3]**
+
+- **E-mail: arsyakaukabi@gmail.com**
 ## Graphical Abstract ##
 ![Abstract](Images/Graphic%20abstract-Page-4.png)
 <p align="center">
@@ -152,4 +157,30 @@ Figure 3 presents the classiﬁcation results of the individual T-DCNN stages wi
     <b>Fig 3</b> TDCNN confusion matrix results from the test data for each stage
 </p>
 
+## Co-ffee Github Repo Links ##
+###
+**Machine Learning**
+>**[Classiﬁcation of Coffee Leaf Diseases](https://github.com/arsyakaukabi/Co-ffee_A)**
 
+>**[Green Coffee Beans Moisture Level Detection](https://github.com/ivandityap/Co-ffee_MoistureDetection)**
+
+**Cloud Computing**
+>**[Disease classification API](https://github.com/xrizer/Co-ffee-Desease-API)**
+
+>**[Coffee beans Moisture level detection API](https://github.com/xrizer/Co-ffee-Desease-API
+)**
+
+**Mobile Development**
+
+>**[Project Android Studio](https://github.com/Rizalfirman165/co-ffee)**
+
+
+## Acknowledgment ##
+Thanks to [Bangkit Academy][3]. Without its support, this work would not have become possible.
+
+Thanks to [Francis Jesmar P. Montalbo][4] for inspires us to create this kind of model.
+
+[2]:https://www.instagram.com/ivnvan_/
+[1]:https://www.instagram.com/arsyakaukabi/
+[3]:https://grow.google/intl/id_id/bangkit/
+[4]:https://scholar.google.com/citations?user=PV8dJDkAAAAJ&hl=en&oi=ao
